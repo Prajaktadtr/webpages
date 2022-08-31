@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 user side menu</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"/>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/3f88ab6881.js" crossorigin="anonymous"></script>
+
+  <style>
+  .login{
+    background-color:orange;
+  }
+  .useri{
+    color: rgb(169, 161, 161);
+  }
+  </style>
+    
+
+</head>
+<body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Offcanvas navbar</a>
+
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title p-3 login w-100 text-white fs-3" id="offcanvasNavbarLabel"><i class="fa-solid fa-user p-3 rounded-circle bg-white fs-3 text-secondary"></i> &nbsp; Login</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+             
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#"><i class="fa-solid fa-store"></i>&nbsp;&nbsp;Supermarket</a>
+              </li>
+              <br>
+
+              <li class="nav-item">
+              <a class="nav-link fs-4" href="#"><i class="fa-solid fa-list-ul"></i>&nbsp;&nbsp;My Order</a>
+              </li>
+              <br>
+
+             <li class="nav-item">
+             <a class="nav-link fs-4" href="#"><i class="fa-solid fa-sack-dollar"></i>&nbsp;&nbsp;Payment</a>
+             </li>
+             <br>
+
+             <li class="nav-item">
+             <a class="nav-link fs-4" href="#"><i class="fa-solid fa-location-crosshairs"></i>&nbsp;&nbsp;Shipping Traking</a>
+             </li>
+             <br>
+
+             <li class="nav-item">
+             <a class="nav-link fs-4" href="#"><i class="fa-brands fa-galactic-republic"></i>&nbsp;&nbsp;Refferal Program</a>
+             </li>
+             <br>
+
+             <li class="nav-item">
+             <a class="nav-link fs-4" href="#"><i class="fa-solid fa-calendar"></i> &nbsp;&nbsp;Events</a>
+             </li>
+             <br>
+
+             <li class="nav-item">
+             <a class="nav-link fs-4" href="#"><i class="fa-solid fa-file-lines"></i>&nbsp;&nbsp;News</a>
+             </li>
+             <br>
+             <br><br><br><br><br><br><br><br>
+             <a href="" class="text-decoration-none fs-3" style="color:rgb(236, 182, 66);">Logout</a>
+              
+                
+            
+              
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End Example Code -->
+  
+</body>
+</html>

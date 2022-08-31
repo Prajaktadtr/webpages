@@ -1,0 +1,307 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:lucida handwriting;
+    font-size: 30px;
+
+}
+
+.header
+{
+  background-image: url(img/9.webp);
+  /* width: 100%; */
+  height: 1200px;
+  width: 100%;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+background-position: center;  
+background-size: cover;
+
+}
+
+.a{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(245, 238, 239);
+    word-spacing: 70px;
+    /* font-weight: 300; */
+}
+.a:hover{
+  color: rgb(221, 52, 80);
+  /* background-color: antiquewhite; */
+  /* background-color: white; */
+}
+
+.top-left {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    color: aliceblue;
+  }
+  
+  b{
+    font-size: 70px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  }
+  b:hover{
+    color:linear-gradient(rgb(211, 165, 173),white,rgb(181, 99, 113),rgb(228, 94, 116),rgb(235, 38, 71)) ;
+  }
+
+
+  button
+  {
+    border-color: rgb(214, 113, 130);
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 145, 158);
+    height: 50px;
+  }
+  .button1
+  {
+    border-color: rgb(214, 113, 130);
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 145, 158);
+  }
+
+  .button2
+  {
+    border-color: rgb(230, 37, 66);
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 37, 66);
+    padding: 10px;
+    height: 60Px;
+  }
+  
+  .d{display: flex;
+    }
+
+    .section2{
+        height: 300px;
+        /* background-color: rgb(227, 174, 183); */
+        background-color: white;
+        width: 100%;
+
+    }
+    .fa{
+      /* word-spacing: 70px; */
+      font-weight: 100;
+      font-size: 20px;
+      
+      
+    }
+    .f1{
+      color: rgb(243, 68, 97);
+      font-size: 100px;
+      /* text-align: center; */
+
+    }
+
+    .f2{
+      color: rgb(243, 68, 97);
+      font-weight:bold;
+      font-size: 20px;
+      text-align: center;
+    }
+    .f3{
+
+      color: rgb(243, 68, 97);
+      font-weight: 100;
+      font-size: 18px;
+      position: relative;
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+    /* .f4{
+      font-size: 100px;
+      margin-left: -250px;
+      margin-top: -500px;
+
+
+
+    } */
+    .section3{
+      height: 300px;
+      /* background-color: rgb(247, 248, 248); */
+      background-color: white;
+      /* border: solid 1px palevioletred; */
+      width: 100%;
+    }
+    .h2{
+      color: rgb(227, 21, 97);
+      text-align: center;
+      font-size: 40px;
+    }
+
+
+    .h3{
+      margin-top: 100px;
+      margin-left: 300px;
+
+    }
+    .section4{
+      height: 500px;
+      /* background-color: rgb(240, 239, 240); */
+      background-color: white;
+      /* border: solid 1px palevioletred; */
+      width: 100%;
+
+
+    }
+    .container{
+
+
+      width: 90%;
+      padding: 20px;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+
+    }
+    .box
+    {
+      width: 250px;
+      margin: 0 10px;
+      box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+      transition: 1s;
+    }
+
+    .box img{
+      display: block;
+      width: 100%;
+      border-radius: 5px;
+    }
+    .box:hover{
+      transform: scale(1.1);
+      z-index: 2;
+    }
+
+    .h4{
+      color: rgb(237, 62, 92);
+      font-weight: 500;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    .section5{
+      height: 500px;
+      /* background-color: aliceblue; */
+      background-color: white;
+      /* border: solid 1px palevioletred; */
+      width: 100%;
+
+    }
+    .section6{
+      height: 800px;
+      /* background-color: aliceblue; */
+      background-image: url(img/13.jpg);
+      /* border: solid 1px palevioletred; */
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;  
+      background-size: cover;
+    }
+    .top-right2{
+      position: absolute;
+    top: 3000px;
+    right: 100px;
+    color: rgb(207, 47, 98);
+    /* border: solid 1px rgb(246, 229, 229); */
+    /* background-color: rgb(251, 247, 247); */
+
+    }
+    .s6{
+      font-size: 70px;
+      font-weight: 400;
+      color: rgb(230, 37, 66);
+    }
+    
+    .section7{
+      height: 500px;
+      /* background-color: aliceblue; */
+      /* background-color: white; */
+
+      /* border: solid 1px palevioletred; */
+      width: 100%;
+
+    }
+    
+    .s7{
+      color: rgb(242, 59, 89);
+      text-align: center;
+    }
+
+    .section8{
+      height: 500px;
+      /* background-color: aliceblue; */
+      background-color: white;
+      /* border: solid 1px palevioletred; */
+      width: 100%;
+    }
+    .section9{
+      height: 300px;
+      /* background-color: aliceblue; */
+      background-color: white;
+      /* border: solid 1px palevioletred; */
+      width: 100%;
+    }
+    .label
+     {
+        position: relative;
+     }
+
+     .input{
+        /* border-radius: 25px; */
+        border: 2px solid rgb(237, 71, 129);
+        padding: 20px; 
+        width: 300px;
+        height: 20px; 
+        color: rgb(197, 237, 197);
+        font-family: fontawesome;
+        font-size: 10px;
+     }
+
+     .bt{
+         position:absolute;
+         top: 2px;
+         right: 2px;
+         bottom: 2px;
+         border: none;
+         /* padding: 20px; */
+         /* background-color: rgb(212, 39, 129) ; */
+         background-color: rgb(230, 60, 88);
+         color: rgb(249, 246, 243);
+         /* border-radius: 25px; */
+         font-size: 20px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         height: 40px;
+         text-align: center;
+         width: 130px;
+         margin-top: 3px;
+     }
+     .s9{
+      color: rgb(230, 60, 88);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+     }
+    .section10{
+      height: 100px;
+      /* background-color: aliceblue; */
+      /* border: solid 1px palevioletred; */
+      background-color: white;
+      width: 100%;
+
+    }
+
+
+  

@@ -1,0 +1,134 @@
+
+.btn1{
+    width: 100px;
+    border-radius: 30px;
+    border: black;
+}
+.form1{
+    background-color: rgb(159, 154, 154);
+    border-radius: 8px;
+}
+.form2{
+    background-color: red;
+    /* color: rgb(50, 197, 50); */
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 800;
+}
+.a{
+    color:white;
+    font-weight:400;
+    font-size:20px
+}
+.b{
+    color:rgb(133, 124, 124);
+    font-weight:400;
+    font-size:20px
+}
+/* .im
+{
+    border-radius: 50%;
+} */
+
+.d{
+    display: flex;
+}
+.bt{
+    width: 400px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 400PX;
+    margin-bottom: 100PX;
+}
+.bt1{
+    /* padding: 2px; */
+    width: 150px;
+    text-align: center;
+    color: rgb(239, 25, 25);
+    font-weight: 400;
+    border:1px solid red;
+    background-color: black;
+    margin-left: 800px;
+
+    height: 50px;
+}
+
+.bt2{
+    margin-left: 500px;
+}
+bt4{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(196, 185, 185);
+    color: white;
+}
+.fa-co{
+    color: red;
+}
+
+.sec12{
+    border-radius: 20px;
+}
+.sec12-a{
+    
+    color: rgb(233, 8, 8);
+}
+.sec14-a{
+    color: white;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+.container {
+    padding: 10px;
+    background-color: black;
+    box-sizing: border-box;
+}
+.redborder{
+    border: solid 1px red;
+    padding: 20px;
+    border-radius: 10px;
+}
+.imgs{
+            height: 700px;
+            width: 100%;
+            background-image: url(7.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+    }
+
+.bt1{
+            background-color: rgb(87, 82, 82);
+            width: 150px;
+            border-radius: 10px;
+    }
+ .c1{
+            background-color: rgb(79, 76, 76);
+
+              width: 100%; 
+            /* height: 430px;*/
+           padding: 10px;
+            border-radius: 5px;
+            
+        }
+        .imgs
+        {
+            height: 700px;
+            /*width: 100%;*/
+            background-image: url(7.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bt1{
+            background-color: rgb(87, 82, 82);
+            width: 150px;
+            border-radius: 10px;
+        }
+
+
